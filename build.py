@@ -108,3 +108,10 @@ urls=[DOMAIN+"/"]+[f"{DOMAIN}/{c[0]}.html" for k,c in CATS.items() if any(p[5]==
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"  <url><loc>{u}</loc><lastmod>2026-10-23</lastmod></url>\n" for u in urls)+"</urlset>\n")
 open("robots.txt","w").write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
 print(len(done),"pages")
+
+# --- slotgrill.com link trim v3 (Keith, 2026-10-24) ---
+# One working button per page + a few contextual links; other slotgrill.com links become plain text.
+# Run with LINKCUT=0 to build the full-link version. Do not remove: the live sites are trimmed.
+import linkcut, os
+LINKCUT_KEEP={"about-slot-grill": ["SlotGrill.com"], "how-to-season-a-compact-grill": ["Slot Grill Seasoning Balm"], "index": ["Shop the Slot Grill Compact \u00b7 $79.97", "See the Full Size at SlotGrill.com", "SlotGrill.com"], "real-slot-grill": ["SlotGrill.com"], "slot-grill-maker-story": ["SlotGrill.com"]}
+linkcut.run(LINKCUT_KEEP, pref='Shop', enabled=os.environ.get("LINKCUT","1")!="0")
