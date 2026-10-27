@@ -3,7 +3,7 @@ _p=[p for p in PAGES if p[0]=="compact-vs-full-size-slot-grill"][0]
 page(_p[0],_p[1],_p[2],_p[3],_p[4].replace("<h2>Or both</h2>",_MATRIX+"<h2>Or both</h2>"),_p[5],_p[6])
 
 FAQS=[("What is the Slot Grill Compact?","A heavy-duty flat-pack charcoal grill made in Texas from 12-gauge carbon steel. It has a 16.25 by 9 inch (146 sq in) cooking area, weighs about 14 lb, sets up by hand in 30 to 60 seconds with tab and slot assembly, and packs about 1 inch thick."),
-("How much does the Slot Grill Compact cost?","On SlotGrill.com it is $79.97, regular $89.97, with free shipping in the lower 48."),
+("How much does the Slot Grill Compact cost?","On SlotGrill.com it is $89.97, regular $99.97, with free shipping in the lower 48."),
 ("Where can I buy a Slot Grill?","Only at SlotGrill.com, the @SlotGrill TikTok Shop, and @SlotGrill on the Shop app. Slot Grill has no authorized third-party resellers."),
 ("Is local pickup available?","No. Slot Grills ship from the shop, usually leaving in 1 to 3 days, with free shipping in the lower 48."),
 ("Where are Slot Grills made?","In Texas, USA, by Precision Cut Metals LLC. They are built and sold direct by the maker."),
