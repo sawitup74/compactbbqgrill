@@ -28,7 +28,7 @@ page("compact-grill-camping-guide","Camping With a Compact Charcoal Grill","Car 
 <h2>Before you go</h2><ul><li>Check the campground's rules and any burn bans. Some allow charcoal only in fire rings.</li><li>Season the grill at home (<a href="/how-to-season-a-compact-grill.html">how</a>).</li><li>Pack charcoal in a dry bag; damp charcoal is miserable to light.</li></ul>
 <h2>At camp</h2><p>Set up on bare soil, gravel or sand, away from tents and dry brush. It takes about a minute to assemble by hand, with no loose hardware to drop in the dirt. Where fires are allowed, the same grill works as a small fire pit after dinner for marshmallows.</p>
 <blockquote>"This morning we wanted to roast marshmallows. Set up was efficient. In minutes we were roasting our sweet breakfast."<cite>Richard Shapero, RV owner</cite></blockquote>
-<h2>Honest tradeoffs</h2><p>Thick steel is heavier than a flimsy folding grill. At about 14 lb the Compact is for car, truck, boat and RV camping, not backpacking. And carbon steel needs to be kept dry and lightly oiled after trips or it will surface-rust.</p>
+<h2>Honest tradeoffs</h2><p>Thick steel is heavier than a flimsy thin-steel grill. At about 14 lb the Compact is for car, truck, boat and RV camping, not backpacking. And carbon steel needs to be kept dry and lightly oiled after trips or it will surface-rust.</p>
 <h2>Cleanup</h2><p>Let the ash go completely cold, put it in a metal container, and follow the park's disposal rules. Wipe the grates with a little oil before you pack up.</p>
 """)
 page("two-zone-fire-on-a-small-grill","How to Build a Two-Zone Fire on a Small Charcoal Grill","The one technique that makes small grills easy: hot side, cool side, and how to use them for steaks, chicken and burgers.",IMG["c08"],f"""
